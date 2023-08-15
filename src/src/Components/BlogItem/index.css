@@ -1,0 +1,82 @@
+/* index.css */
+.main-container {
+    margin-top: 15px;
+}
+
+.blog-container {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f5f5f5;
+}
+
+.image-container  {
+    max-width: 35%;
+    height: auto;
+}
+
+.data-container {
+    flex: 2;
+    margin-left: 15%;
+    display: flex;
+    align-items: center; /* Align children vertically in the center */
+}
+
+.data-container h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.data-container p {
+    margin: 0%;
+    color: #777;
+    border-radius: 40%; /* Apply circular shape to p */
+    padding: 5px;
+    background-color: #f5f5f5;
+
+}
+
+#head{
+    position: relative;
+    right: 60%;
+    bottom: 25%;
+}
+#p{
+    margin-top: 10%;
+    position: relative;
+    top: 12%;
+}
+
+.data-container .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+    position: relative;
+    top: 30%;
+    right: 80%;
+}
+
+.data-container .image-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    border: 2px solid #333;
+    background-color: #f5f5f5;
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+}
+
+.author-container .avatar {
+    width: 30px;
+    height: 30px;
+}
